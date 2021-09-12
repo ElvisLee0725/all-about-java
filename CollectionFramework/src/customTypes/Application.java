@@ -10,7 +10,7 @@ public class Application {
         animals.add("Cat");
         animals.add("Dog");
         animals.add("Bear");
-        
+
         printElements(animals);
 
         List<Vehicle> vehicles = new LinkedList<>();
