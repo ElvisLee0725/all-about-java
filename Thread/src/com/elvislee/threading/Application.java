@@ -3,12 +3,12 @@ package com.elvislee.threading;
 public class Application {
     public static void main(String[] args) {
 
-        // Create a thread, method 1:
+        // Create a thread, method 1 class implements Runnable:
         System.out.println("Start thread 1: ");
         Thread t1 = new Thread(new Task("Thread-a"));
         t1.start();
 
-        // Create a thread, method 2:
+        // Create a thread, method 2 use Runnable:
         System.out.println("Start thread 2: ");
         Thread t2 = new Thread(new Runnable() {
             @Override
